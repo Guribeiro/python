@@ -17,10 +17,11 @@ moedas = {
     '15':'XRP',
 }
 
-
+print(f"{moedas['1']}")
+'''
 for index, valores in zip(moedas.keys(), moedas.values()):
     print(index, valores)
-
+'''
 
 '''
 import requests
